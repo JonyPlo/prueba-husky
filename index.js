@@ -1,2 +1,5 @@
-console.log('hola');
-console.log('no se');
+function add(a, b) {
+  return a + b;
+}
+
+module.exports = { add };
